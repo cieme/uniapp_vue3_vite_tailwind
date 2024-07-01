@@ -15,4 +15,5 @@
   @import 'tailwindcss/base';
   @import 'tailwindcss/components';
   @import 'tailwindcss/utilities';
+  @import "uview-plus/index.scss";
 </style>

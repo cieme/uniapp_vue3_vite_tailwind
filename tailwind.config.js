@@ -13,13 +13,13 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        500: "500px",
+        500: "500rpx",
       },
     },
     spacing: {
-      200: "200px",
-      300: "300px",
-      400: "400px",
+      200: "200rpx",
+      300: "300rpx",
+      400: "400rpx",
     },
   },
   plugins: [],

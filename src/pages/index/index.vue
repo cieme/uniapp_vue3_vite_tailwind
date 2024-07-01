@@ -3,6 +3,7 @@
     <view class="text-area">
       <text class="title w-400">{{ title }}</text>
     </view>
+    <up-button text="月落"></up-button>
   </view>
 </template>
 
