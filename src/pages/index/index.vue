@@ -1,7 +1,7 @@
 <template>
-  <view class="content">
+  <view class="content w-500">
     <view class="text-area">
-      <text class="title">{{ title }}</text>
+      <text class="title w-400">{{ title }}</text>
     </view>
   </view>
 </template>

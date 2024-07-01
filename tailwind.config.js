@@ -6,12 +6,15 @@ module.exports = {
     exclude: ["node_modules", ".git", "dist"],
   },
   corePlugins: {
-    // 禁用掉在小程序环境中不可能用到的 plugins
-    // container: false,
+    // 不需要 preflight，因为preflight主要是给 h5 的，小程序使用的独特的标签，导致preflight不起作用。
+    // 如果你要同时开发小程序和 h5 端，你应该使用环境变量来控制它
+    preflight: false,
   },
   theme: {
     extend: {
-      spacing: {},
+      spacing: {
+        500: "500px",
+      },
     },
     spacing: {
       200: "200px",
